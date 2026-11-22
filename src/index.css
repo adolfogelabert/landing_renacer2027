@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-linen: #FAFAF7;
+  --color-sand: #F5EBE0;
+  --color-sand-deep: #EADBC8;
+  --color-earth: #3E2723;
+  --color-earth-deep: #2B1D14;
+  --color-earth-muted: #5C463B;
+  --color-gold: #C5A059;
+  --color-gold-bright: #D4AF37;
+  --color-sage: #4A5D3E;
+  --color-brand-blue: #0072CE;
+  --color-brand-blue-dark: #005AA3;
+  --color-brand-orange: #FF8200;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #FAFAF7;
+    color: #2B1D14;
+    scroll-padding-top: 5.5rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+@keyframes subtleHalo {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.45;
+  }
+  50% {
+    transform: scale(1.16);
+    opacity: 0;
+  }
+}
+
+.whatsapp-halo {
+  animation: subtleHalo 2.8s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .whatsapp-halo {
+    animation: none;
+    opacity: 0;
+  }
+}

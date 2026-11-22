@@ -1,0 +1,10 @@
+# XAMPP/Apache: sirve la versión compilada (dist/) cuando se abre
+# http://localhost/landing_renacer2027/ sin cambiar la URL del navegador.
+# En GitHub Pages este archivo se ignora; allí el build se publica directo.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(?!dist/)(.*)$ dist/$1 [L]
+</IfModule>
+
+# Raíz: muestra el build compilado. Dentro de dist/: muestra su index.html.
+DirectoryIndex dist/index.html index.html

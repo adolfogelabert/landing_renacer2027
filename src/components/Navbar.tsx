@@ -32,7 +32,7 @@ export function Navbar() {
   }, []);
 
   const reserveHref = buildWhatsAppUrl(
-    'Hola equipo de Tu Viaje en Primera Clase, quiero asegurar mi lugar en el retiro holístico Soltar para Renacer 2027 (4, 5 y 6 de diciembre de 2026).'
+    'Hola equipo de Tu Viaje en Primera Clase, quiero asegurar mi lugar en el retiro holístico Soltar para Renacer 2027 (11, 12 y 13 de diciembre de 2026).'
   );
 
   return (

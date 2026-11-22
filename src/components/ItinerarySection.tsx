@@ -32,7 +32,7 @@ export function ItinerarySection({ onOpenBrochure }: ItinerarySectionProps) {
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
           <div className="max-w-2xl">
             <p className="text-xs sm:text-[13px] font-semibold tracking-[0.14em] text-[#4A5D3E]">
-              Agenda consciente · 4, 5 y 6 de diciembre de 2026
+              Agenda consciente · 11, 12 y 13 de diciembre de 2026
             </p>
             <h2
               id="itinerario-heading"

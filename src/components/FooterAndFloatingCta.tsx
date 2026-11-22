@@ -249,7 +249,7 @@ export function FooterAndFloatingCta({ onOpenBrochure }: FooterProps) {
             <p>
               © 2026 Tu Viaje en Primera Clase × Posada Bagbazindio. Todos los derechos reservados.
             </p>
-            <p>4, 5 y 6 de Diciembre, 2026 · Todasana, La Guaira, Venezuela</p>
+            <p>11, 12 y 13 de Diciembre, 2026 · Todasana, La Guaira, Venezuela</p>
           </div>
         </div>
       </footer>

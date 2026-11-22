@@ -1,6 +1,6 @@
 # Soltar para Renacer 2027 — Landing Page
 
-Landing page del retiro holístico **"Soltar para Renacer 2027"** (Posada Bagbazindio, Todasana, La Guaira — 4, 5 y 6 de diciembre de 2026).
+Landing page del retiro holístico **"Soltar para Renacer 2027"** (Posada Bagbazindio, Todasana, La Guaira — 11, 12 y 13 de diciembre de 2026).
 
 ## Tecnologías
 

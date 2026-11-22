@@ -69,7 +69,7 @@ export function FaqAndContactSection({ selectedPlan }: FaqAndContactSectionProps
 
   const compiledWhatsAppMessage = [
     `Hola equipo de Tu Viaje en Primera Clase, soy ${values.fullName || 'un(a) interesado(a)'}.`,
-    `Deseo solicitar tarifas y apartar cupo en el retiro "Soltar para Renacer 2027" (4-6 Dic 2026).`,
+    `Deseo solicitar tarifas y apartar cupo en el retiro "Soltar para Renacer 2027" (11-13 Dic 2026).`,
     `• Acomodación deseada: ${values.accommodation}`,
     `• Participantes: ${values.guests}`,
     values.email ? `• Correo: ${values.email}` : '',
@@ -181,7 +181,7 @@ export function FaqAndContactSection({ selectedPlan }: FaqAndContactSectionProps
                   <CalendarDays className="w-4 h-4 text-[#C5A059] shrink-0 mt-0.5" aria-hidden="true" />
                   <div>
                     <p className="font-semibold text-[#2B1D14]">Fechas del Retiro</p>
-                    <p className="text-[#5C463B]">Viernes 4, sábado 5 y domingo 6 de diciembre, 2026</p>
+                    <p className="text-[#5C463B]">Viernes 11, sábado 12 y domingo 13 de diciembre, 2026</p>
                   </div>
                 </div>
 

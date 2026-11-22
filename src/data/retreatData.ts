@@ -111,7 +111,7 @@ export const ITINERARY_DAYS: ItineraryDay[] = [
   {
     id: 'dia-1',
     dayNumber: 'Día 1',
-    dateLabel: 'Viernes 4 de Diciembre',
+    dateLabel: 'Viernes 11 de Diciembre',
     shortLabel: 'Vie 4 Dic',
     theme: 'Limpieza y Apertura',
     summary:
@@ -165,7 +165,7 @@ export const ITINERARY_DAYS: ItineraryDay[] = [
   {
     id: 'dia-2',
     dayNumber: 'Día 2',
-    dateLabel: 'Sábado 5 de Diciembre',
+    dateLabel: 'Sábado 12 de Diciembre',
     shortLabel: 'Sáb 5 Dic',
     theme: 'Reprogramación y Manifestación',
     summary:
@@ -219,7 +219,7 @@ export const ITINERARY_DAYS: ItineraryDay[] = [
   {
     id: 'dia-3',
     dayNumber: 'Día 3',
-    dateLabel: 'Domingo 6 de Diciembre',
+    dateLabel: 'Domingo 13 de Diciembre',
     shortLabel: 'Dom 6 Dic',
     theme: 'Siembra y Cierre',
     summary:
@@ -359,7 +359,7 @@ export const ACCOMMODATION_PLANS: PlanOption[] = [
       'Excelente opción para grupos de amigas o viajeras individuales',
     ],
     whatsappMessage:
-      'Hola equipo de Tu Viaje en Primera Clase, deseo consultar tarifa y disponibilidad en Habitación Compartida para el retiro Soltar para Renacer 2027 (4-6 Dic 2026).',
+      'Hola equipo de Tu Viaje en Primera Clase, deseo consultar tarifa y disponibilidad en Habitación Compartida para el retiro Soltar para Renacer 2027 (11-13 Dic 2026).',
   },
   {
     id: 'matrimonial',
@@ -375,7 +375,7 @@ export const ACCOMMODATION_PLANS: PlanOption[] = [
       'Opción de reserva individual o junto a tu pareja / acompañante',
     ],
     whatsappMessage:
-      'Hola equipo de Tu Viaje en Primera Clase, deseo consultar tarifa y disponibilidad en Habitación Privada Matrimonial para el retiro Soltar para Renacer 2027 (4-6 Dic 2026).',
+      'Hola equipo de Tu Viaje en Primera Clase, deseo consultar tarifa y disponibilidad en Habitación Privada Matrimonial para el retiro Soltar para Renacer 2027 (11-13 Dic 2026).',
   },
   {
     id: 'suite',
@@ -390,7 +390,7 @@ export const ACCOMMODATION_PLANS: PlanOption[] = [
       'Disponibilidad sumamente limitada dentro de la posada',
     ],
     whatsappMessage:
-      'Hola equipo de Tu Viaje en Primera Clase, deseo consultar tarifa y disponibilidad en la Suite Exclusiva para el retiro Soltar para Renacer 2027 (4-6 Dic 2026).',
+      'Hola equipo de Tu Viaje en Primera Clase, deseo consultar tarifa y disponibilidad en la Suite Exclusiva para el retiro Soltar para Renacer 2027 (11-13 Dic 2026).',
   },
 ];
 
@@ -405,7 +405,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'transporte',
     question: '¿Cómo funciona el transporte privado desde Caracas?',
     answer:
-      'El punto de encuentro y salida es el CC Paseo Las Mercedes en Caracas el viernes 4 de diciembre a las 6:00 a. m. Viajarás en una unidad ejecutiva privada, cómoda y con aire acondicionado directamente hasta Posada Bagbazindio en Todasana. El retorno sale el domingo 6 de diciembre a la 1:00 p. m. hacia el mismo punto en Caracas.',
+      'El punto de encuentro y salida es el CC Paseo Las Mercedes en Caracas el viernes 11 de diciembre a las 6:00 a. m. Viajarás en una unidad ejecutiva privada, cómoda y con aire acondicionado directamente hasta Posada Bagbazindio en Todasana. El retorno sale el domingo 13 de diciembre a la 1:00 p. m. hacia el mismo punto en Caracas.',
   },
   {
     id: 'experiencia',

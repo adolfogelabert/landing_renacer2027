@@ -12,8 +12,8 @@ interface CountdownState {
   started: boolean;
 }
 
-// Target: Friday, December 4, 2026 at 06:00 AM Venezuela Time (UTC-4)
-const TARGET_TIMESTAMP = new Date('2026-12-04T06:00:00-04:00').getTime();
+// Target: Friday, December 11, 2026 at 06:00 AM Venezuela Time (UTC-4)
+const TARGET_TIMESTAMP = new Date('2026-12-11T06:00:00-04:00').getTime();
 
 function computeCountdown(): CountdownState {
   const diff = TARGET_TIMESTAMP - Date.now();
@@ -42,7 +42,7 @@ export function HeroSection() {
   }, []);
 
   const primaryWhatsAppUrl = buildWhatsAppUrl(
-    'Hola equipo de Tu Viaje en Primera Clase, quiero reservar mi experiencia en el retiro "Soltar para Renacer 2027" del 4 al 6 de diciembre de 2026 en Posada Bagbazindio.'
+    'Hola equipo de Tu Viaje en Primera Clase, quiero reservar mi experiencia en el retiro "Soltar para Renacer 2027" del 11 al 13 de diciembre de 2026 en Posada Bagbazindio.'
   );
 
   return (
@@ -82,7 +82,7 @@ export function HeroSection() {
             <span className="h-[1px] w-6 bg-[#D4AF37]/80 hidden sm:inline-block" aria-hidden="true" />
             <span>Retiro Exclusivo de Cierre de Año</span>
             <span className="text-[#D4AF37]" aria-hidden="true">•</span>
-            <span className="text-[#F5EBE0] font-semibold">4, 5 y 6 de Diciembre, 2026</span>
+            <span className="text-[#F5EBE0] font-semibold">11, 12 y 13 de Diciembre, 2026</span>
             <span className="h-[1px] w-6 bg-[#D4AF37]/80 hidden sm:inline-block" aria-hidden="true" />
           </motion.div>
 
@@ -149,7 +149,7 @@ export function HeroSection() {
             <p className="text-xs font-medium tracking-[0.14em] text-[#EBD29B]/95 mb-3">
               {countdown.started
                 ? 'Nuestro encuentro frente al mar ha comenzado'
-                : 'Cuenta regresiva hacia el 4 de diciembre de 2026'}
+                : 'Cuenta regresiva hacia el 11 de diciembre de 2026'}
             </p>
             <div className="grid grid-cols-4 gap-2.5 sm:gap-4 px-4 sm:px-6 py-3.5 rounded-2xl bg-[#2B1D14]/65 backdrop-blur-md border border-[#EBD29B]/22">
               {[
@@ -190,7 +190,7 @@ export function HeroSection() {
               <p className="mt-0.5 text-sm sm:text-[15px] font-semibold text-[#FAFAF7]">
                 3 Días / 2 Noches
               </p>
-              <p className="text-xs text-[#F5EBE0]/80 mt-0.5">Del viernes 4 al domingo 6 de diciembre</p>
+              <p className="text-xs text-[#F5EBE0]/80 mt-0.5">Del viernes 11 al domingo 13 de diciembre</p>
             </div>
           </div>
 
